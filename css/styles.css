@@ -1,0 +1,149 @@
+/* Element Tags */
+h1,
+h2,
+h3 {
+	font-weight: Bold;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+body {
+	font-family: "Montserrat";
+}
+.colored-section {
+	background-color: #ff4c68;
+	color: #fff;
+}
+/* TITLE SECTION */
+.container-fluid {
+	padding: 3% 10%;
+}
+.navbar-brand {
+	font-family: "ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item {
+	padding: 0 15px;
+}
+.nav-link {
+	font-weight: 300;
+}
+.navbar {
+	padding: 0 0 50px 0;
+}
+#phone {
+	transform: rotate(20deg);
+	height: 95%;
+	position: absolute;
+	right: 20%;
+}
+.Download-button {
+	margin: 3% 3% 20% 0;
+}
+#head {
+	font-family: "Montserrat";
+	line-height: 1.5;
+	font-size: 3rem;
+	font-weight: 1000;
+	color: #fff;
+}
+/* FEATURES */
+.col-lg-4 {
+	padding: 3%;
+}
+
+#features {
+	text-align: center;
+	background-color: #fff;
+	padding: 7% 10%;
+	position: relative;
+}
+#features h3 {
+	font-size: 1.7rem;
+}
+.fa-4x {
+	font-size: 5rem;
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+.fa-4x:hover {
+	color: #ff4c68;
+}
+
+.feat_p {
+	color: #8f8f8f;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+	text-align: center;
+}
+.testimonial-image {
+	border-radius: 100%;
+	width: 10%;
+	margin: 20px 20px 0;
+}
+
+.carousel-item {
+	padding: 7% 10%;
+}
+/* PRESS */
+#press {
+	text-align: center;
+	padding: 3%;
+}
+
+.press-img {
+	width: 20%;
+	margin: 0 1%;
+}
+#pricing {
+	padding: 100px;
+	text-align: center;
+}
+/* CTA SECTION */
+#cta {
+	text-align: center;
+	padding: 7% 17% 5%;
+}
+.cta-text {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.cta-button {
+	margin: 3% 1%;
+}
+/* FOOTER SECTION */
+#footer {
+	text-align: center;
+	background-color: #fff;
+	padding: 5%;
+}
+.footer-link {
+	color: #1f1f1f;
+	margin: 10px;
+}
+.footer-link:hover {
+	color: #3f3f3f;
+}
+#foot-para {
+	margin: 15px 0;
+}
+
+/* PHONE SIZE */
+@media (max-width: 1000px) {
+	#phone {
+		position: static;
+		transform: rotate(0);
+	}
+	#title {
+		text-align: center;
+	}
+	.Download-button {
+		margin-bottom: 10%;
+	}
+	.nav-link {
+		text-align: left;
+	}
+}
